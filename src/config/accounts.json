@@ -1,0 +1,16 @@
+{
+  "kamilla": {
+    "owner": "Камилла",
+    "sheetEnv": "SHEET_KAMILLA_ID",
+    "accounts": [
+        "gregory",
+        "hernand",
+        "sydney"
+    ]
+  },
+  "maxonya": {
+    "owner": "Максоня",
+    "sheetEnv": "SHEET_MAXONYA_ID",
+    "accounts": ["maksim"]
+  }
+}
