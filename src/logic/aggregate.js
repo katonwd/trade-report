@@ -32,7 +32,7 @@ export async function generateReport(start, end) {
 
     const deposits = await calcDeposits(sheetId, start, end);
     const withdraws = await calcWithdraws(sheetId, start, end);
-    const expenses = await calcExpenses(sheetId);
+    const expenses = await calcExpenses(sheetId, start, end);
 
     const profit = sold - expenses.total - bought;
     const profitPercent = bought ? (profit / bought) * 100 : 0;
